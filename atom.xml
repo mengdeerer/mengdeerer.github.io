@@ -6,7 +6,7 @@
   <link href="http://morgandesign.top/atom.xml" rel="self"/>
   
   <link href="http://morgandesign.top/"/>
-  <updated>2024-01-20T01:11:51.399Z</updated>
+  <updated>2024-01-20T03:20:06.482Z</updated>
   <id>http://morgandesign.top/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>how to build your own blog</title>
+    <link href="http://morgandesign.top/2024/01/20/how-to-build-your-own-blog/"/>
+    <id>http://morgandesign.top/2024/01/20/how-to-build-your-own-blog/</id>
+    <published>2024-01-20T03:10:15.000Z</published>
+    <updated>2024-01-20T03:20:06.482Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>教程，启动!</strong></p><blockquote><p>富强民主文明和谐<br>自由平等公正法治<br>爱国敬业诚信友善</p></blockquote><h1 id="选择服务器和域名"><a href="#选择服务器和域名" class="headerlink" title="选择服务器和域名"></a>选择服务器和域名</h1><p><img src="/2024/01/20/how-to-build-your-own-blog/beian.png" alt="beian"><br>为了避免实名认证和备案的繁琐流程，选择境外服务器和域名提供商</p><h2 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h2><p>选择阿里云，正好用上上次云工开物送的300代金券和三折优惠券</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;教程，启动!&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;富强民主文明和谐&lt;br&gt;自由平等公正法治&lt;br&gt;爱国敬业诚信友善&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;选择服务器和域名&quot;&gt;&lt;a href=&quot;#选择服务器和域名&quot; clas</summary>
+      
+    
+    
+    
+    
+    <category term="blog" scheme="http://morgandesign.top/tags/blog/"/>
+    
+    <category term="教程" scheme="http://morgandesign.top/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>test</title>
