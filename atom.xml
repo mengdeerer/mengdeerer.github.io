@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>X</title>
+  
+  
+  <link href="http://morgandesign.top/atom.xml" rel="self"/>
+  
+  <link href="http://morgandesign.top/"/>
+  <updated>2024-01-20T01:11:51.399Z</updated>
+  <id>http://morgandesign.top/</id>
+  
+  <author>
+    <name>mengdeerer</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://morgandesign.top/2024/01/19/test/"/>
+    <id>http://morgandesign.top/2024/01/19/test/</id>
+    <published>2024-01-19T12:14:16.000Z</published>
+    <updated>2024-01-20T01:11:51.399Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="达达达达哒"><a href="#达达达达哒" class="headerlink" title="达达达达哒"></a>达达达达哒</h1><h1 id="达达达达哒-1"><a href="#达达达达哒-1" class="headerlink" title="达达达达哒"></a>达达达达哒</h1><h1 id="达达达达哒-2"><a href="#达达达达哒-2" class="headerlink" title="达达达达哒"></a>达达达达哒</h1><h1 id="达达达达哒-3"><a href="#达达达达哒-3" class="headerlink" title="达达达达哒"></a>达达达达哒</h1><h1 id="达达达达哒-4"><a href="#达达达达哒-4" class="headerlink" title="达达达达哒"></a>达达达达哒</h1><h1 id="达达达达哒-5"><a href="#达达达达哒-5" class="headerlink" title="达达达达哒"></a>达达达达哒</h1><h1 id="达达达达哒-6"><a href="#达达达达哒-6" class="headerlink" title="达达达达哒"></a>达达达达哒</h1><span id="more"></span><p><img src="/2024/01/19/test/me.png" alt="me.png|225"><br>hihihi</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /home/www/hexo</span><br></pre></td></tr></table></figure><p>$$\alpha$$</p><ul><li><input disabled type="checkbox"> 你好<blockquote><p>hihihi</p></blockquote></li><li>hi</li><li>hi</li><li>hello</li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;达达达达哒&quot;&gt;&lt;a href=&quot;#达达达达哒&quot; class=&quot;headerlink&quot; title=&quot;达达达达哒&quot;&gt;&lt;/a&gt;达达达达哒&lt;/h1&gt;&lt;h1 id=&quot;达达达达哒-1&quot;&gt;&lt;a href=&quot;#达达达达哒-1&quot; class=&quot;headerlink&quot; title=&quot;达达达达哒&quot;&gt;&lt;/a&gt;达达达达哒&lt;/h1&gt;&lt;h1 id=&quot;达达达达哒-2&quot;&gt;&lt;a href=&quot;#达达达达哒-2&quot; class=&quot;headerlink&quot; title=&quot;达达达达哒&quot;&gt;&lt;/a&gt;达达达达哒&lt;/h1&gt;&lt;h1 id=&quot;达达达达哒-3&quot;&gt;&lt;a href=&quot;#达达达达哒-3&quot; class=&quot;headerlink&quot; title=&quot;达达达达哒&quot;&gt;&lt;/a&gt;达达达达哒&lt;/h1&gt;&lt;h1 id=&quot;达达达达哒-4&quot;&gt;&lt;a href=&quot;#达达达达哒-4&quot; class=&quot;headerlink&quot; title=&quot;达达达达哒&quot;&gt;&lt;/a&gt;达达达达哒&lt;/h1&gt;&lt;h1 id=&quot;达达达达哒-5&quot;&gt;&lt;a href=&quot;#达达达达哒-5&quot; class=&quot;headerlink&quot; title=&quot;达达达达哒&quot;&gt;&lt;/a&gt;达达达达哒&lt;/h1&gt;&lt;h1 id=&quot;达达达达哒-6&quot;&gt;&lt;a href=&quot;#达达达达哒-6&quot; class=&quot;headerlink&quot; title=&quot;达达达达哒&quot;&gt;&lt;/a&gt;达达达达哒&lt;/h1&gt;</summary>
+    
+    
+    
+    
+    <category term="达" scheme="http://morgandesign.top/tags/%E8%BE%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>course_电子工程数理方法</title>
+    <link href="http://morgandesign.top/2024/01/19/course-%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E6%95%B0%E7%90%86%E6%96%B9%E6%B3%95/"/>
+    <id>http://morgandesign.top/2024/01/19/course-%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E6%95%B0%E7%90%86%E6%96%B9%E6%B3%95/</id>
+    <published>2024-01-19T10:17:25.000Z</published>
+    <updated>2024-01-19T14:26:12.838Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="电子工程数理方法"><a href="#电子工程数理方法" class="headerlink" title="电子工程数理方法"></a>电子工程数理方法</h1><span id="more"></span><h1 id="解析函数"><a href="#解析函数" class="headerlink" title="解析函数"></a>解析函数</h1><h2 id="极限"><a href="#极限" class="headerlink" title="极限"></a>极限</h2><p>1. </p><pre><code>$$\Delta z \rightarrow 0,任意路径均可\\as\ follows\\ \Delta x=0,\Delta y \rightarrow 0 \\ \Delta y=0,\Delta x \rightarrow 0$$</code></pre><ol start="2"><li>拆分为实部虚部，充分条件</li></ol><hr><h2 id="连续性"><a href="#连续性" class="headerlink" title="连续性"></a>连续性</h2><ol><li>拆分为实部虚部，分别连续则连续，充要条件</li><li>有界闭域连续，$\lvert f(z) \rvert$ 必有最大值和最小值</li></ol><hr><h2 id="导数"><a href="#导数" class="headerlink" title="导数"></a>导数</h2><ol><li><p>左右导数存在且相等&#x3D;&#x3D;可导</p></li><li><p>两个函数：</p><p> $$<br> Im\ z\ 处处均不可导 \ \lvert z \rvert 只有z&#x3D;0时可导<br> $$</p></li><li><p>不可拆分为实部虚部，即使均可导整体可能也不可导</p></li><li><p>基本公式，四则运算，链式法则，反函数求导均不变<br> 1. </p><p> $$<br> (C)’&#x3D;0 \(\ z^{n})’&#x3D;nz^{n-1}<br> $$</p></li></ol><hr><h2 id="微分"><a href="#微分" class="headerlink" title="微分"></a>微分</h2><ol><li>可导&#x3D;&#x3D;可微 ⇒连续</li><li></li></ol><p>$$<br>dw&#x3D;f’(z)dz<br>$$</p><hr><h2 id="解析："><a href="#解析：" class="headerlink" title="解析："></a>解析：</h2><p>z0处解析：在z0及其邻域内处处可导，注意只在一个点可导不算解析</p><p>在区域D内解析：在D内每一点解析（称为解析函数，全纯函数，正则函数）</p><p>若在z0不解析，z0称为奇点（不在定义域内也可）</p><p>解析函数经四则运算，复合函数，反函数仍是解析函数</p><hr><h2 id="函数解析的充分条件"><a href="#函数解析的充分条件" class="headerlink" title="函数解析的充分条件"></a>函数解析的充分条件</h2><ol><li>可导的必要条件：在z0处可导，则u,v一阶导数存在，且满足柯西黎曼条件（cauchy-riemann）</li><li></li></ol><p>$$<br>\frac{\partial u}{\partial x}&#x3D;\frac{\partial v }{\partial y}\ \frac{\partial u}{\partial y}&#x3D;-\frac{\partial v }{\partial x}\f’(z)&#x3D;\frac{\partial u}{\partial x}+i\frac{\partial v}{\partial x}<br>$$</p><p> 3.可导的充分条件：u,v可微，而且满足CR方程</p><p>推论：u，v一阶偏导连续，满足CR方程，则  f   可导</p><p>函数在区域D内解析的充要条件：u，v在D内具有一阶连续偏导数，并满足柯西黎曼条件</p><p>判断解析函数是否为常数条件：</p><ol><li>函数在区域内解析且导数恒为0</li><li>解析函数的实部虚部，模或辐角有一个恒为常数（利用柯西黎曼条件推导剩余的为0）</li><li>解析函数的共轭在区域内解析</li></ol><hr><h2 id="调和函数"><a href="#调和函数" class="headerlink" title="调和函数"></a>调和函数</h2><ol><li>调和函数定义：二元实函数在区域D内具有连续的二阶偏导，且满足二维拉普拉斯方程：</li></ol><p>$$<br>\Delta^2u&#x3D;\frac{\partial^2 u}{\partial x^2}+\frac{\partial^2 u}{\partial y^2}&#x3D;0<br>$$</p><hr><h2 id="调和函数和解析函数的关系"><a href="#调和函数和解析函数的关系" class="headerlink" title="调和函数和解析函数的关系"></a>调和函数和解析函数的关系</h2><aside>💡 解析函数具有任意阶连续偏导数</aside><ol><li>若f(z)为D内解析函数，则u,v均为D内的调和函数</li><li>u，v为D内调和函数，若uv满足CR,则称v为u的共轭解析函数，-u为v的共轭解析函数</li></ol><p>解析函数可推出：</p><ol><li>D内可导</li><li>u，vD内可微，满足CR</li><li>u，v D内一阶偏导连续，CR</li><li>D内v为u的共轭调和函数</li></ol><blockquote><p>一阶偏导连续则可微，可微不一定满足一阶偏导连续</p></blockquote><p>若u为单连通区域（即内部无孔）D内的调和函数，则可找到他的共轭调和函数v是的f&#x3D;u+iv成为D内解析函数，且这样的v有无穷个</p><p>![[Notes_230927_184824_48a.jpg]]</p><p>解析函数实部求虚部方法：</p><ol><li>偏积分法</li><li>曲线积分法（取任意路径积分值相同）</li><li>全微分法</li><li>导函数法（ux,uy→f’→x换成z,y换成0→积分）</li></ol><hr><h2 id="正交曲线族"><a href="#正交曲线族" class="headerlink" title="正交曲线族"></a>正交曲线族</h2><p>若f&#x3D;u+iv为D内的解析函数且f’不等于0，则u&#x3D;c1,v&#x3D;c2为D内的两组正交曲线族</p><h1 id="Laplace-trans"><a href="#Laplace-trans" class="headerlink" title="Laplace trans"></a>Laplace trans</h1><p><img src="/2024/01/19/course-%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E6%95%B0%E7%90%86%E6%96%B9%E6%B3%95/Courses/%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E6%95%B0%E7%90%86%E6%96%B9%E6%B3%95/Untitled.png" alt="Untitled"></p><h1 id="列表积分法"><a href="#列表积分法" class="headerlink" title="列表积分法"></a>列表积分法</h1><p><a href="https://zhuanlan.zhihu.com/p/81024770?utm_id=0">分部积分法→列表积分法</a></p><p>收敛</p><p>an不趋近于0</p><p>绝对收敛-》条件收敛</p><p>分散开讨论</p>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;电子工程数理方法&quot;&gt;&lt;a href=&quot;#电子工程数理方法&quot; class=&quot;headerlink&quot; title=&quot;电子工程数理方法&quot;&gt;&lt;/a&gt;电子工程数理方法&lt;/h1&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://morgandesign.top/2024/01/18/hello-world/"/>
+    <id>http://morgandesign.top/2024/01/18/hello-world/</id>
+    <published>2024-01-18T14:12:21.060Z</published>
+    <updated>2024-01-19T14:25:06.333Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><span id="more"></span><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+</feed>
