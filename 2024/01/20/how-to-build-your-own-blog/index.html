@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"morgandesign.top","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"flat"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":3,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
+  </script>
+
+  <meta name="description" content="教程，启动!  富强民主文明和谐自由平等公正法治爱国敬业诚信友善">
+<meta property="og:type" content="article">
+<meta property="og:title" content="how to build your own blog">
+<meta property="og:url" content="http://morgandesign.top/2024/01/20/how-to-build-your-own-blog/index.html">
+<meta property="og:site_name" content="X">
+<meta property="og:description" content="教程，启动!  富强民主文明和谐自由平等公正法治爱国敬业诚信友善">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://morgandesign.top/2024/01/20/how-to-build-your-own-blog/beian.png">
+<meta property="article:published_time" content="2024-01-20T03:10:15.000Z">
+<meta property="article:modified_time" content="2024-01-20T05:47:46.304Z">
+<meta property="article:author" content="mengdeerer">
+<meta property="article:tag" content="blog">
+<meta property="article:tag" content="教程">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://morgandesign.top/2024/01/20/how-to-build-your-own-blog/beian.png">
+
+<link rel="canonical" href="http://morgandesign.top/2024/01/20/how-to-build-your-own-blog/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>how to build your own blog | X</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="X" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">X</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">Xue</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://morgandesign.top/2024/01/20/how-to-build-your-own-blog/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/me.png">
+      <meta itemprop="name" content="mengdeerer">
+      <meta itemprop="description" content="hahahahahaha">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="X">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          how to build your own blog
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2024-01-20 11:10:15 / 修改时间：13:47:46" itemprop="dateCreated datePublished" datetime="2024-01-20T11:10:15+08:00">2024-01-20</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p><strong>教程，启动!</strong></p>
+<blockquote>
+<p>富强民主文明和谐<br>自由平等公正法治<br>爱国敬业诚信友善</p>
+</blockquote>
+<span id="more"></span>
+
+<h1 id="选择服务器和域名"><a href="#选择服务器和域名" class="headerlink" title="选择服务器和域名"></a>选择服务器和域名</h1><p><img src="/2024/01/20/how-to-build-your-own-blog/beian.png" alt="beian"><br>为了避免实名认证和备案的繁琐流程，选择境外服务器和域名提供商</p>
+<h2 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h2><h3 id="供应商"><a href="#供应商" class="headerlink" title="供应商"></a>供应商</h3><p>选择阿里云，正好用上上次云工开物送的300代金券和三折优惠券,选择新加披地区2核2G+100G硬盘，一年下来只需0元<br>除此以外还可以直接选择境外供应商，例如racknerd，vultr等，总之只要大于1核1G就够用了，毕竟搭了博客也没什么人看</p>
+<h3 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h3><p>选择Ubuntu22.04系统</p>
+<h2 id="域名"><a href="#域名" class="headerlink" title="域名"></a>域名</h2><p>建议在境外域名站购买一个域名，大概一刀一年，为了便宜可以选择.xyz .top etc.</p>
+<h3 id="域名解析"><a href="#域名解析" class="headerlink" title="域名解析"></a>域名解析</h3><p>使用cloudfare解析，提供CDN防护，大致流程为</p>
+<ul>
+<li>注册并登录cloudfare</li>
+<li>将所购买域名的DNS解析服务器更改为cloudfare提供的DNS服务器<blockquote>
+<p>通常可以在购买域名的管理界面的<strong>DNS修改</strong>选项中修改</p>
+</blockquote>
+</li>
+</ul>
+<h1 id="服务器端配置"><a href="#服务器端配置" class="headerlink" title="服务器端配置"></a>服务器端配置</h1><h2 id="开放端口"><a href="#开放端口" class="headerlink" title="开放端口"></a>开放端口</h2><p>在服务器供应商管理界面防火墙（或入站规则等类似说法）设置处开放22端口（ssh使用），80端口（http服务使用），443端口（https使用）</p>
+<h2 id="ssh"><a href="#ssh" class="headerlink" title="ssh"></a>ssh</h2><p>win端通过powershell远程登录服务器（确保服务器已经开放22端口）</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh root@111.111.111.111 <span class="comment">#111.111.111.111为你服务器的公网</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="下载必备软件"><a href="#下载必备软件" class="headerlink" title="下载必备软件"></a>下载必备软件</h2><p>下载git</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install git</span><br></pre></td></tr></table></figure>
+<p>下载nodejs</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install nodejs</span><br></pre></td></tr></table></figure>
+<p>下载nginx</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install nginx</span><br></pre></td></tr></table></figure>
+<p>检查是否成功下载</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git -v</span><br><span class="line">node -v</span><br><span class="line">npm -v</span><br><span class="line">nginx -v</span><br></pre></td></tr></table></figure>
+<p>若成功显示版本号则安装成功，否则请尝试</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update</span><br><span class="line">sudo apt upgrade</span><br></pre></td></tr></table></figure>
+<p>再次进行下载</p>
+<h2 id="创建git用户"><a href="#创建git用户" class="headerlink" title="创建git用户"></a>创建git用户</h2><p>添加用户并按提示设置密码</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">adduser git</span><br></pre></td></tr></table></figure>
+<p>修改权限</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">chmod</span> 740 /etc/sudoers</span><br></pre></td></tr></table></figure>
+<p>修改文件</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/sudoers <span class="comment">#vim打开要修改的文件</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>进入后按i键由命令模式切换到编辑模式。找到 root ALL&#x3D;(ALL) ALL，在下面添加一行 <strong>git ALL&#x3D;(ALL) ALL</strong>。修改完成后，先按Esc由编辑模式切换到命令模式，再输入:wq命令保存并退出编辑器。<br>改回权限</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">chmod</span> 400 /etc/sudoers</span><br></pre></td></tr></table></figure>
+<h3 id="为git用户配置免密登录"><a href="#为git用户配置免密登录" class="headerlink" title="为git用户配置免密登录"></a>为git用户配置免密登录</h3><p>使用git用户免密公钥登录服务器的原理是：在本地计算机生成一个公钥文件和一个秘钥文件（类似于一个钥匙配一把锁)，然后将公钥文件上传到云服务器，并将公钥安装到authorized_keys列表中去（即：将公钥文件的内容拷贝到authorized_keys文件中去）。这样本地计算机便可以通过ssh方式免密连接我们的云服务器了。</p>
+<p>在服务器端将登陆用户切换到git用户，然后在~目录(根目录)下创建.ssh文件夹，用来存放公钥。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">su git</span><br><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line"><span class="built_in">mkdir</span> .ssh</span><br></pre></td></tr></table></figure>
+<p>在本地计算机桌面右键打开GitBash(或Powershell)，在本地生成公钥&#x2F;私钥对。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line"><span class="built_in">cd</span> .ssh</span><br><span class="line">ssh-keygen</span><br></pre></td></tr></table></figure>
+<p>接下来，碰见系统询问就直接按回车键。此时便会在本地计算机的用户根目录（C:\Users&lt;你的windows用户名&gt;）下自动生成 .ssh（隐藏）文件夹，并在其中创建两个文件，分别为：id_rsa（私钥）和id_rsa.pub（公钥）。</p>
+<p>在本地计算机上给私钥设置权限。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">chmod</span> 700 ~/.ssh</span><br><span class="line"><span class="built_in">chmod</span> 600 ~/.ssh/id_rsa</span><br></pre></td></tr></table></figure>
+<p>进入到.ssh文件夹中，右键单击在terminal中打开，利用scp将公钥传输到服务器root文件夹中</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scp id_rsa.pub root@111.111.111.111:/root</span><br></pre></td></tr></table></figure>
+<p>进入服务器，在服务器中</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~/.ssh</span><br><span class="line"><span class="built_in">cp</span> id_rsa.pub authorized_keys</span><br><span class="line"><span class="built_in">cat</span> id_rsa.pub &gt;&gt; ~/.ssh/authorized_keys</span><br></pre></td></tr></table></figure>
+<p>设置权限</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">chmod</span> 600 ~/.ssh/authorized_keys</span><br><span class="line"><span class="built_in">chmod</span> 700 ~/.ssh</span><br></pre></td></tr></table></figure>
+<p>大功告成，以后登录git用户就不用输入密码了</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh git@111.111.111.111</span><br></pre></td></tr></table></figure>
+<p>即可进入</p>
+<h2 id="在服务器端配置git仓库"><a href="#在服务器端配置git仓库" class="headerlink" title="在服务器端配置git仓库"></a>在服务器端配置git仓库</h2><p>新建文件夹存放blog</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> -p /home/www/hexo</span><br></pre></td></tr></table></figure>
+<p>配置hook文件</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line">git init --bare hexo.git</span><br><span class="line">vim ~/hexo.git/hooks/post-receive</span><br></pre></td></tr></table></figure>
+<p> 进入后按i键由命令模式切换到编辑模式。输入： <strong>git –work-tree&#x3D;&#x2F;home&#x2F;www&#x2F;hexo –git-dir&#x3D;&#x2F;home&#x2F;git&#x2F;hexo.git checkout -f</strong>完成以上修改后，先按Esc由编辑模式切换到命令模式，再输入:wq命令保存并退出编辑器。<br>授予hook文件可执行权限。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">chmod</span> +x ~/hexo.git/hooks/post-receive</span><br><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line">sudo <span class="built_in">chmod</span> -R 777 /home/www/hexo</span><br></pre></td></tr></table></figure>
+<h2 id="配置nginx"><a href="#配置nginx" class="headerlink" title="配置nginx"></a>配置nginx</h2><p>之前已经安装了nginx，查找安装的nginx在哪</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">whereis nginx</span><br></pre></td></tr></table></figure>
+<p>若终端显示</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nginx: /usr/sbin/nginx /usr/lib/nginx /etc/nginx /usr/share/nginx /usr/share/man/man8/nginx.8.gz</span><br></pre></td></tr></table></figure>
+<p>则nginx配置文件在&#x2F;etc&#x2F;nginx中</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /etc/nginx</span><br><span class="line">vim nginx.conf</span><br></pre></td></tr></table></figure>
+<p>在http{}中添加server{}如下</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">               listen 80;</span><br><span class="line">               listen [::]:80;</span><br><span class="line">               root /home/www/hexo; # 修改的地方</span><br><span class="line">               server_name morgandesign.top 111.111.111.111; #修改server_name为你的域名，可以加上服务器公网ip,这样IP，域名均可访问</span><br><span class="line">               location / &#123;</span><br><span class="line">            # First attempt to serve request as file, then</span><br><span class="line">            # as directory, then fall back to displaying a 404.</span><br><span class="line">                       try_files $uri $uri/ =404;</span><br><span class="line">                       &#125;</span><br><span class="line">       &#125;</span><br></pre></td></tr></table></figure>
+<p>先按Esc由编辑模式切换到命令模式，再输入:wq命令保存并退出编辑器。<br>重启nginx服务</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service nginx restart</span><br></pre></td></tr></table></figure>
+<p>浏览器输入 111.111.111.111:80 查看是否有nginx 404界面。</p>
+<h1 id="windows端配置"><a href="#windows端配置" class="headerlink" title="windows端配置"></a>windows端配置</h1><h2 id="安装必备软件"><a href="#安装必备软件" class="headerlink" title="安装必备软件"></a>安装必备软件</h2><p>安装nodejs</p>
+<ul>
+<li>官网下载即可</li>
+</ul>
+<p>安装git</p>
+<ul>
+<li>官网下载即可</li>
+</ul>
+<p>安装hexo</p>
+<p>在D盘新建MyHexoBlogs文件夹用来存放个人博客，进入该文件夹，右键打开Git Bash，使用 npm 安装 Hexo。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<h2 id="hexo配置"><a href="#hexo配置" class="headerlink" title="hexo配置"></a>hexo配置</h2><p>Hexo安装完成后，在MyHexoBlogs文件夹下新建myblogs项目，并对其进行初始化。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init myblogs</span><br><span class="line"><span class="built_in">cd</span> myblogs</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+<p>此时，会在MyHexoBlogs文件夹下新建myblogs文件夹，并在其内部生成相应的项目文件。<br>在myblogs文件夹下启动hexo服务。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+<p>此时在本地打开浏览器，通过 <a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a> 便可访问基于Hexo的个人博客主页了。<br>在myblogs文件夹中打开_config.yml,修改其中deploy参数为</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">git@111.111.111.111:home/git/hexo.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
+<p>在本地计算机安装插件: hexo-deployer-git 和 hexo-server。在myblogs文件夹下右键打开GitBash，输入以下命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">npm install hexo-server</span><br></pre></td></tr></table></figure>
+<p><em>这俩插件的作用分别是使用Git自动部署，和hexo本地简单的服务器。</em><br>在本地计算机配置Git全局变量。 输入以下命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.email <span class="string">&quot;xxxxxxxxxx@xx.com&quot;</span></span><br><span class="line">git config --global user.name “xxxx”</span><br></pre></td></tr></table></figure>
+<p>使用Hexo生成、发布个人博客。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g -d</span><br></pre></td></tr></table></figure>
+<p>此时，便可以通过浏览器访问<a href="https://link.zhihu.com/?target=http://xxx.xxx.xxx.xxx:80/">http://xxx.xxx.xxx.xxx:80/</a> 进入hexo我的博客主页了。</p>
+<h2 id="域名解析-1"><a href="#域名解析-1" class="headerlink" title="域名解析"></a>域名解析</h2><p>在cloudfare中，添加DNS记录<br>类型为A，名称为@，IP为你的公网IP，打开代理状态<br>静待10min,尝试用域名打开你的blog</p>
+<h1 id="完结撒花"><a href="#完结撒花" class="headerlink" title="完结撒花"></a>完结撒花</h1><p>huahuahuahuahuahua</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/blog/" rel="tag"># blog</a>
+              <a href="/tags/%E6%95%99%E7%A8%8B/" rel="tag"># 教程</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2024/01/19/test/" rel="prev" title="test">
+      <i class="fa fa-chevron-left"></i> test
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%80%89%E6%8B%A9%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%92%8C%E5%9F%9F%E5%90%8D"><span class="nav-number">1.</span> <span class="nav-text">选择服务器和域名</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="nav-number">1.1.</span> <span class="nav-text">服务器</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BE%9B%E5%BA%94%E5%95%86"><span class="nav-number">1.1.1.</span> <span class="nav-text">供应商</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%B3%BB%E7%BB%9F"><span class="nav-number">1.1.2.</span> <span class="nav-text">系统</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%9F%E5%90%8D"><span class="nav-number">1.2.</span> <span class="nav-text">域名</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90"><span class="nav-number">1.2.1.</span> <span class="nav-text">域名解析</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%E9%85%8D%E7%BD%AE"><span class="nav-number">2.</span> <span class="nav-text">服务器端配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BC%80%E6%94%BE%E7%AB%AF%E5%8F%A3"><span class="nav-number">2.1.</span> <span class="nav-text">开放端口</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ssh"><span class="nav-number">2.2.</span> <span class="nav-text">ssh</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD%E5%BF%85%E5%A4%87%E8%BD%AF%E4%BB%B6"><span class="nav-number">2.3.</span> <span class="nav-text">下载必备软件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%9B%E5%BB%BAgit%E7%94%A8%E6%88%B7"><span class="nav-number">2.4.</span> <span class="nav-text">创建git用户</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BAgit%E7%94%A8%E6%88%B7%E9%85%8D%E7%BD%AE%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95"><span class="nav-number">2.4.1.</span> <span class="nav-text">为git用户配置免密登录</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9C%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%E9%85%8D%E7%BD%AEgit%E4%BB%93%E5%BA%93"><span class="nav-number">2.5.</span> <span class="nav-text">在服务器端配置git仓库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AEnginx"><span class="nav-number">2.6.</span> <span class="nav-text">配置nginx</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#windows%E7%AB%AF%E9%85%8D%E7%BD%AE"><span class="nav-number">3.</span> <span class="nav-text">windows端配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E5%BF%85%E5%A4%87%E8%BD%AF%E4%BB%B6"><span class="nav-number">3.1.</span> <span class="nav-text">安装必备软件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo%E9%85%8D%E7%BD%AE"><span class="nav-number">3.2.</span> <span class="nav-text">hexo配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90-1"><span class="nav-number">3.3.</span> <span class="nav-text">域名解析</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AE%8C%E7%BB%93%E6%92%92%E8%8A%B1"><span class="nav-number">4.</span> <span class="nav-text">完结撒花</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="mengdeerer"
+      src="/images/me.png">
+  <p class="site-author-name" itemprop="name">mengdeerer</p>
+  <div class="site-description" itemprop="description">hahahahahaha</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/mengdeerer" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;mengdeerer" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:mengdeerer@gmail.com" title="E-Mail → mailto:mengdeerer@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2024</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">mengdeerer</span>
+</div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
