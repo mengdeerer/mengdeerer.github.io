@@ -31,7 +31,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://morgandesign.top/2024/01/20/how-to-build-your-own-blog/beian.png">
 <meta property="article:published_time" content="2024-01-20T03:10:15.000Z">
-<meta property="article:modified_time" content="2024-01-20T03:21:13.902Z">
+<meta property="article:modified_time" content="2024-01-20T04:56:58.317Z">
 <meta property="article:author" content="mengdeerer">
 <meta property="article:tag" content="blog">
 <meta property="article:tag" content="教程">
@@ -220,7 +220,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2024-01-20 11:10:15 / 修改时间：11:21:13" itemprop="dateCreated datePublished" datetime="2024-01-20T11:10:15+08:00">2024-01-20</time>
+              <time title="创建时间：2024-01-20 11:10:15 / 修改时间：12:56:58" itemprop="dateCreated datePublished" datetime="2024-01-20T11:10:15+08:00">2024-01-20</time>
             </span>
 
           
@@ -241,7 +241,53 @@
 <span id="more"></span>
 
 <h1 id="选择服务器和域名"><a href="#选择服务器和域名" class="headerlink" title="选择服务器和域名"></a>选择服务器和域名</h1><p><img src="/2024/01/20/how-to-build-your-own-blog/beian.png" alt="beian"><br>为了避免实名认证和备案的繁琐流程，选择境外服务器和域名提供商</p>
-<h2 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h2><p>选择阿里云，正好用上上次云工开物送的300代金券和三折优惠券</p>
+<h2 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h2><h3 id="供应商"><a href="#供应商" class="headerlink" title="供应商"></a>供应商</h3><p>选择阿里云，正好用上上次云工开物送的300代金券和三折优惠券,选择新加披地区2核2G+100G硬盘，一年下来只需0元<br>除此以外还可以直接选择境外供应商，例如racknerd，vultr等，总之只要大于1核1G就够用了，毕竟搭了博客也没什么人看</p>
+<h3 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h3><p>选择Ubuntu22.04系统</p>
+<h2 id="域名"><a href="#域名" class="headerlink" title="域名"></a>域名</h2><p>建议在境外域名站购买一个域名，大概一刀一年，为了便宜可以选择.xyz .top etc.</p>
+<h3 id="域名解析"><a href="#域名解析" class="headerlink" title="域名解析"></a>域名解析</h3><p>使用cloudfare解析，提供CDN防护，大致流程为</p>
+<ul>
+<li>注册并登录cloudfare</li>
+<li>将所购买域名的DNS解析服务器更改为cloudfare提供的DNS服务器<blockquote>
+<p>通常可以在购买域名的管理界面的<strong>DNS修改</strong>选项中修改</p>
+</blockquote>
+</li>
+</ul>
+<h1 id="服务器端配置"><a href="#服务器端配置" class="headerlink" title="服务器端配置"></a>服务器端配置</h1><h2 id="开放端口"><a href="#开放端口" class="headerlink" title="开放端口"></a>开放端口</h2><p>在服务器供应商管理界面防火墙（或入站规则等类似说法）设置处开放22端口（ssh使用），80端口（http服务使用），443端口（https使用）</p>
+<h2 id="ssh"><a href="#ssh" class="headerlink" title="ssh"></a>ssh</h2><p>win端通过powershell远程登录服务器（确保服务器已经开放22端口）</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh root@111.111.111.111 <span class="comment">#111.111.111.111为你服务器的公网</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="下载必备软件"><a href="#下载必备软件" class="headerlink" title="下载必备软件"></a>下载必备软件</h2><p>下载git</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install git</span><br></pre></td></tr></table></figure>
+<p>下载nodejs</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install nodejs</span><br></pre></td></tr></table></figure>
+<p>下载nginx</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install nginx</span><br></pre></td></tr></table></figure>
+<p>检查是否成功下载</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git -v</span><br><span class="line">node -v</span><br><span class="line">npm -v</span><br><span class="line">nginx -v</span><br></pre></td></tr></table></figure>
+<p>若成功显示版本号则安装成功，否则请尝试</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update</span><br><span class="line">sudo apt upgrade</span><br></pre></td></tr></table></figure>
+<p>再次进行下载</p>
+<h2 id="创建git用户"><a href="#创建git用户" class="headerlink" title="创建git用户"></a>创建git用户</h2><p>添加用户并按提示设置密码</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">adduser git</span><br></pre></td></tr></table></figure>
+<p>修改权限</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">chmod</span> 740 /etc/sudoers</span><br></pre></td></tr></table></figure>
+<p>修改文件</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/sudoers <span class="comment">#vim打开要修改的文件</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>进入后按i键由命令模式切换到编辑模式。找到 root ALL&#x3D;(ALL) ALL，在下面添加一行 <strong>git ALL&#x3D;(ALL) ALL</strong>。修改完成后，先按Esc由编辑模式切换到命令模式，再输入:wq命令保存并退出编辑器。<br>改回权限</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">chmod</span> 400 /etc/sudoers</span><br></pre></td></tr></table></figure>
+<h3 id="为git用户配置免密登录"><a href="#为git用户配置免密登录" class="headerlink" title="为git用户配置免密登录"></a>为git用户配置免密登录</h3><p>使用git用户免密公钥登录服务器的原理是：在本地计算机生成一个公钥文件和一个秘钥文件（类似于一个钥匙配一把锁)，然后将公钥文件上传到云服务器，并将公钥安装到authorized_keys列表中去（即：将公钥文件的内容拷贝到authorized_keys文件中去）。这样本地计算机便可以通过ssh方式免密连接我们的云服务器了。</p>
+<p>在服务器端将登陆用户切换到git用户，然后在~目录(根目录)下创建.ssh文件夹，用来存放公钥。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">su git</span><br><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line"><span class="built_in">mkdir</span> .ssh</span><br></pre></td></tr></table></figure>
+<p>在本地计算机桌面右键打开GitBash(或Powershell)，在本地生成公钥&#x2F;私钥对。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line"><span class="built_in">cd</span> .ssh</span><br><span class="line">ssh-keygen</span><br></pre></td></tr></table></figure>
+<p>接下来，碰见系统询问就直接按回车键。此时便会在本地计算机的用户根目录（C:\Users&lt;你的windows用户名&gt;）下自动生成 .ssh（隐藏）文件夹，并在其中创建两个文件，分别为：id_rsa（私钥）和id_rsa.pub（公钥）。</p>
+<p>在本地计算机上给私钥设置权限。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">chmod</span> 700 ~/.ssh</span><br><span class="line"><span class="built_in">chmod</span> 600 ~/.ssh/id_rsa</span><br></pre></td></tr></table></figure>
+<p>进入到.ssh文件夹中，右键单击在terminal中打开，利用scp将公钥传输到服务器root文件夹中</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scp id_rsa.pub root@111.111.111.111:/root</span><br></pre></td></tr></table></figure>
+
 
     </div>
 
@@ -323,7 +369,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%80%89%E6%8B%A9%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%92%8C%E5%9F%9F%E5%90%8D"><span class="nav-number">1.</span> <span class="nav-text">选择服务器和域名</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="nav-number">1.1.</span> <span class="nav-text">服务器</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%80%89%E6%8B%A9%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%92%8C%E5%9F%9F%E5%90%8D"><span class="nav-number">1.</span> <span class="nav-text">选择服务器和域名</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="nav-number">1.1.</span> <span class="nav-text">服务器</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BE%9B%E5%BA%94%E5%95%86"><span class="nav-number">1.1.1.</span> <span class="nav-text">供应商</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%B3%BB%E7%BB%9F"><span class="nav-number">1.1.2.</span> <span class="nav-text">系统</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%9F%E5%90%8D"><span class="nav-number">1.2.</span> <span class="nav-text">域名</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90"><span class="nav-number">1.2.1.</span> <span class="nav-text">域名解析</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%E9%85%8D%E7%BD%AE"><span class="nav-number">2.</span> <span class="nav-text">服务器端配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BC%80%E6%94%BE%E7%AB%AF%E5%8F%A3"><span class="nav-number">2.1.</span> <span class="nav-text">开放端口</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ssh"><span class="nav-number">2.2.</span> <span class="nav-text">ssh</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD%E5%BF%85%E5%A4%87%E8%BD%AF%E4%BB%B6"><span class="nav-number">2.3.</span> <span class="nav-text">下载必备软件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%9B%E5%BB%BAgit%E7%94%A8%E6%88%B7"><span class="nav-number">2.4.</span> <span class="nav-text">创建git用户</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BAgit%E7%94%A8%E6%88%B7%E9%85%8D%E7%BD%AE%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95"><span class="nav-number">2.4.1.</span> <span class="nav-text">为git用户配置免密登录</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
