@@ -6,7 +6,7 @@
   <link href="http://morgandesign.top/atom.xml" rel="self"/>
   
   <link href="http://morgandesign.top/"/>
-  <updated>2024-01-22T07:13:05.861Z</updated>
+  <updated>2024-01-22T07:24:37.306Z</updated>
   <id>http://morgandesign.top/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vim basic command</title>
+    <link href="http://morgandesign.top/2024/01/22/vim-basic-command/"/>
+    <id>http://morgandesign.top/2024/01/22/vim-basic-command/</id>
+    <published>2024-01-22T07:15:22.000Z</published>
+    <updated>2024-01-22T07:24:37.306Z</updated>
+    
+    <content type="html"><![CDATA[<p>记点根本就记不住的命令</p><hr><span id="more"></span><p>替换  :s/^/ /<br>重复执行 .</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;记点根本就记不住的命令&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    
+    <category term="vim" scheme="http://morgandesign.top/tags/vim/"/>
+    
+    <category term="keep" scheme="http://morgandesign.top/tags/keep/"/>
+    
+  </entry>
   
   <entry>
     <title>computer network from 0 to 0</title>
