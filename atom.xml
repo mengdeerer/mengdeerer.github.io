@@ -6,7 +6,7 @@
   <link href="http://morgandesign.top/atom.xml" rel="self"/>
   
   <link href="http://morgandesign.top/"/>
-  <updated>2024-01-26T03:49:14.334Z</updated>
+  <updated>2024-01-30T16:26:22.482Z</updated>
   <id>http://morgandesign.top/</id>
   
   <author>
@@ -15,6 +15,19 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>nps实现内网穿透畅玩幻兽帕鲁</title>
+    <link href="http://morgandesign.top/2024/01/31/nps%E5%AE%9E%E7%8E%B0%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E7%95%85%E7%8E%A9%E5%B9%BB%E5%85%BD%E5%B8%95%E9%B2%81/"/>
+    <id>http://morgandesign.top/2024/01/31/nps%E5%AE%9E%E7%8E%B0%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E7%95%85%E7%8E%A9%E5%B9%BB%E5%85%BD%E5%B8%95%E9%B2%81/</id>
+    <published>2024-01-30T16:26:22.000Z</published>
+    <updated>2024-01-30T16:26:22.482Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>霍尔增量编码器测速</title>
