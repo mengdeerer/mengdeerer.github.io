@@ -6,7 +6,7 @@
   <link href="http://morgandesign.top/atom.xml" rel="self"/>
   
   <link href="http://morgandesign.top/"/>
-  <updated>2024-02-01T01:28:13.636Z</updated>
+  <updated>2024-02-25T07:36:34.061Z</updated>
   <id>http://morgandesign.top/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>quest3基础使用教程</title>
+    <link href="http://morgandesign.top/2024/02/25/quest3%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    <id>http://morgandesign.top/2024/02/25/quest3%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</id>
+    <published>2024-02-25T07:34:30.000Z</published>
+    <updated>2024-02-25T07:36:34.061Z</updated>
+    
+    <content type="html"><![CDATA[<p>享受VR世界<br><span id="more"></span></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;享受VR世界&lt;br&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="教程" scheme="http://morgandesign.top/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="quest" scheme="http://morgandesign.top/tags/quest/"/>
+    
+  </entry>
   
   <entry>
     <title>nps实现内网穿透畅玩幻兽帕鲁</title>
@@ -31,9 +52,9 @@
     
     
     
-    <category term="内网穿透" scheme="http://morgandesign.top/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/"/>
-    
     <category term="教程" scheme="http://morgandesign.top/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="内网穿透" scheme="http://morgandesign.top/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/"/>
     
   </entry>
   
@@ -141,9 +162,9 @@
     
     
     
-    <category term="教程" scheme="http://morgandesign.top/tags/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="blog" scheme="http://morgandesign.top/tags/blog/"/>
+    
+    <category term="教程" scheme="http://morgandesign.top/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
