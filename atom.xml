@@ -6,7 +6,7 @@
   <link href="http://morgandesign.top/atom.xml" rel="self"/>
   
   <link href="http://morgandesign.top/"/>
-  <updated>2024-02-25T07:36:34.061Z</updated>
+  <updated>2024-02-26T07:13:05.039Z</updated>
   <id>http://morgandesign.top/</id>
   
   <author>
@@ -15,6 +15,66 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>量子力学</title>
+    <link href="http://morgandesign.top/2024/02/26/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6/"/>
+    <id>http://morgandesign.top/2024/02/26/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6/</id>
+    <published>2024-02-26T07:13:05.000Z</published>
+    <updated>2024-02-26T07:13:05.039Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>信号与系统</title>
+    <link href="http://morgandesign.top/2024/02/26/%E4%BF%A1%E5%8F%B7%E4%B8%8E%E7%B3%BB%E7%BB%9F/"/>
+    <id>http://morgandesign.top/2024/02/26/%E4%BF%A1%E5%8F%B7%E4%B8%8E%E7%B3%BB%E7%BB%9F/</id>
+    <published>2024-02-26T07:12:41.000Z</published>
+    <updated>2024-02-26T07:12:41.519Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>电磁场</title>
+    <link href="http://morgandesign.top/2024/02/26/%E7%94%B5%E7%A3%81%E5%9C%BA/"/>
+    <id>http://morgandesign.top/2024/02/26/%E7%94%B5%E7%A3%81%E5%9C%BA/</id>
+    <published>2024-02-26T07:12:15.000Z</published>
+    <updated>2024-02-26T07:12:15.941Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>嵌入式系统</title>
+    <link href="http://morgandesign.top/2024/02/26/%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F/"/>
+    <id>http://morgandesign.top/2024/02/26/%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F/</id>
+    <published>2024-02-26T07:09:34.000Z</published>
+    <updated>2024-02-26T07:11:29.126Z</updated>
+    
+    <content type="html"><![CDATA[<p>嵌入式系统学习<br><span id="more"></span></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;嵌入式系统学习&lt;br&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="学习" scheme="http://morgandesign.top/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="嵌入式" scheme="http://morgandesign.top/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>quest3基础使用教程</title>
@@ -52,9 +112,9 @@
     
     
     
-    <category term="教程" scheme="http://morgandesign.top/tags/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="内网穿透" scheme="http://morgandesign.top/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/"/>
+    
+    <category term="教程" scheme="http://morgandesign.top/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -162,9 +222,9 @@
     
     
     
-    <category term="blog" scheme="http://morgandesign.top/tags/blog/"/>
-    
     <category term="教程" scheme="http://morgandesign.top/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="blog" scheme="http://morgandesign.top/tags/blog/"/>
     
   </entry>
   
