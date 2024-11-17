@@ -6,7 +6,7 @@
   <link href="https://mengdeerer.github.io/atom.xml" rel="self"/>
   
   <link href="https://mengdeerer.github.io/"/>
-  <updated>2024-02-26T07:13:05.039Z</updated>
+  <updated>2024-11-17T14:29:22.650Z</updated>
   <id>https://mengdeerer.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>clash中onedrive配置为DIRECTE</title>
+    <link href="https://mengdeerer.github.io/2024/11/17/clash%E4%B8%ADonedrive%E9%85%8D%E7%BD%AE%E4%B8%BADIRECTE/"/>
+    <id>https://mengdeerer.github.io/2024/11/17/clash%E4%B8%ADonedrive%E9%85%8D%E7%BD%AE%E4%B8%BADIRECTE/</id>
+    <published>2024-11-17T14:26:37.000Z</published>
+    <updated>2024-11-17T14:29:22.650Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="调整verge配置文件"><a href="#调整verge配置文件" class="headerlink" title="调整verge配置文件"></a>调整verge配置文件</h2><p>使用prepend-rules，将规则添加到最前面，这样就可以优先匹配到onedrive的规则，然后将其转发到DIRECT，不经过代理。<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">prepend-rules:</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">DOMAIN-SUFFIX,onedrive.com,DIRECT</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">DOMAIN-SUFFIX,live.com,DIRECT</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">DOMAIN-SUFFIX,mesh.com,DIRECT</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">DOMAIN-SUFFIX,sfx.ms,DIRECT</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">DOMAIN-SUFFIX,microsoft.com,DIRECT</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">DOMAIN-SUFFIX,office.com,DIRECT</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">DOMAIN-SUFFIX,fabric.io,DIRECT</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">DOMAIN-SUFFIX,sharepoint.com,DIRECT</span></span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;调整verge配置文件&quot;&gt;&lt;a href=&quot;#调整verge配置文件&quot; class=&quot;headerlink&quot; title=&quot;调整verge配置文件&quot;&gt;&lt;/a&gt;调整verge配置文件&lt;/h2&gt;&lt;p&gt;使用prepend-rules，将规则添加到最前面，这样就可以优先匹</summary>
+      
+    
+    
+    
+    
+    <category term="clash" scheme="https://mengdeerer.github.io/tags/clash/"/>
+    
+    <category term="onedrive" scheme="https://mengdeerer.github.io/tags/onedrive/"/>
+    
+  </entry>
   
   <entry>
     <title>量子力学</title>
