@@ -6,7 +6,7 @@
   <link href="https://mengdeerer.github.io/atom.xml" rel="self"/>
   
   <link href="https://mengdeerer.github.io/"/>
-  <updated>2024-11-20T15:05:43.441Z</updated>
+  <updated>2024-11-22T13:12:33.741Z</updated>
   <id>https://mengdeerer.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>宿舍网络布局简介</title>
+    <link href="https://mengdeerer.github.io/2024/11/22/%E5%AE%BF%E8%88%8D%E7%BD%91%E7%BB%9C%E5%B8%83%E5%B1%80%E7%AE%80%E4%BB%8B/"/>
+    <id>https://mengdeerer.github.io/2024/11/22/%E5%AE%BF%E8%88%8D%E7%BD%91%E7%BB%9C%E5%B8%83%E5%B1%80%E7%AE%80%E4%BB%8B/</id>
+    <published>2024-11-22T13:10:21.000Z</published>
+    <updated>2024-11-22T13:12:33.741Z</updated>
+    
+    <content type="html"><![CDATA[<p>简单介绍宿舍网络布局，及其原因与局限<br><span id="more"></span></p><h1 id="整体结构"><a href="#整体结构" class="headerlink" title="整体结构"></a>整体结构</h1><p><img src="https://pic.imgdb.cn/item/67408337d29ded1a8c048500.png" alt></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;简单介绍宿舍网络布局，及其原因与局限&lt;br&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="网络" scheme="https://mengdeerer.github.io/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>LLM中的位置编码方式</title>
@@ -76,11 +95,11 @@
   </entry>
   
   <entry>
-    <title>clash中onedrive配置为DIRECTE</title>
+    <title>clash中onedrive配置为DIRECT</title>
     <link href="https://mengdeerer.github.io/2024/11/17/clash%E4%B8%ADonedrive%E9%85%8D%E7%BD%AE%E4%B8%BADIRECTE/"/>
     <id>https://mengdeerer.github.io/2024/11/17/clash%E4%B8%ADonedrive%E9%85%8D%E7%BD%AE%E4%B8%BADIRECTE/</id>
     <published>2024-11-17T14:26:37.000Z</published>
-    <updated>2024-11-17T15:11:54.000Z</updated>
+    <updated>2024-11-20T15:07:10.695Z</updated>
     
     <content type="html"><![CDATA[<p>让onedrive走直连</p><span id="more"></span><h2 id="调整merge配置文件"><a href="#调整merge配置文件" class="headerlink" title="调整merge配置文件"></a>调整merge配置文件</h2><p>使用prepend-rules，将规则添加到最前面，这样就可以优先匹配到onedrive的规则，然后将其转发到DIRECT，不经过代理。</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">prepend-rules:</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">DOMAIN-SUFFIX,onedrive.com,DIRECT</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">DOMAIN-SUFFIX,live.com,DIRECT</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">DOMAIN-SUFFIX,mesh.com,DIRECT</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">DOMAIN-SUFFIX,sfx.ms,DIRECT</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">DOMAIN-SUFFIX,microsoft.com,DIRECT</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">DOMAIN-SUFFIX,office.com,DIRECT</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">DOMAIN-SUFFIX,fabric.io,DIRECT</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">DOMAIN-SUFFIX,sharepoint.com,DIRECT</span></span><br></pre></td></tr></table></figure>]]></content>
     
@@ -132,9 +151,9 @@
     
     
     
-    <category term="quest" scheme="https://mengdeerer.github.io/tags/quest/"/>
-    
     <category term="教程" scheme="https://mengdeerer.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="quest" scheme="https://mengdeerer.github.io/tags/quest/"/>
     
   </entry>
   
@@ -241,9 +260,9 @@
     
     
     
-    <category term="教程" scheme="https://mengdeerer.github.io/tags/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="blog" scheme="https://mengdeerer.github.io/tags/blog/"/>
+    
+    <category term="教程" scheme="https://mengdeerer.github.io/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
