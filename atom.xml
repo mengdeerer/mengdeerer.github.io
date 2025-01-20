@@ -6,7 +6,7 @@
   <link href="https://mengdeerer.github.io/atom.xml" rel="self"/>
   
   <link href="https://mengdeerer.github.io/"/>
-  <updated>2024-11-22T13:14:29.000Z</updated>
+  <updated>2025-01-20T08:51:09.340Z</updated>
   <id>https://mengdeerer.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SJTU工程实践简易参考</title>
+    <link href="https://mengdeerer.github.io/2025/01/20/SJTU%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5%E7%AE%80%E6%98%93%E5%8F%82%E8%80%83/"/>
+    <id>https://mengdeerer.github.io/2025/01/20/SJTU%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5%E7%AE%80%E6%98%93%E5%8F%82%E8%80%83/</id>
+    <published>2025-01-20T08:46:12.000Z</published>
+    <updated>2025-01-20T08:51:09.340Z</updated>
+    
+    <content type="html"><![CDATA[<p>关于学校工程实践课简易参考，面向从未接触过arduino的同学，本教程包含C语言基础和电机舵机控制基础，仅供参考。<br><span id="more"></span></p><h1 id="C语言基础"><a href="#C语言基础" class="headerlink" title="C语言基础"></a>C语言基础</h1><h1 id="舵机控制"><a href="#舵机控制" class="headerlink" title="舵机控制"></a>舵机控制</h1><h1 id="电机控制"><a href="#电机控制" class="headerlink" title="电机控制"></a>电机控制</h1><h2 id="如何进行转弯"><a href="#如何进行转弯" class="headerlink" title="如何进行转弯"></a>如何进行转弯</h2><h3 id="舵机法"><a href="#舵机法" class="headerlink" title="舵机法"></a>舵机法</h3><h3 id="差速法"><a href="#差速法" class="headerlink" title="差速法"></a>差速法</h3>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;关于学校工程实践课简易参考，面向从未接触过arduino的同学，本教程包含C语言基础和电机舵机控制基础，仅供参考。&lt;br&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="教程" scheme="https://mengdeerer.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="待完成" scheme="https://mengdeerer.github.io/tags/%E5%BE%85%E5%AE%8C%E6%88%90/"/>
+    
+  </entry>
   
   <entry>
     <title>宿舍网络布局简介</title>
@@ -31,9 +52,9 @@
     
     
     
-    <category term="网络" scheme="https://mengdeerer.github.io/tags/%E7%BD%91%E7%BB%9C/"/>
-    
     <category term="待完成" scheme="https://mengdeerer.github.io/tags/%E5%BE%85%E5%AE%8C%E6%88%90/"/>
+    
+    <category term="网络" scheme="https://mengdeerer.github.io/tags/%E7%BD%91%E7%BB%9C/"/>
     
   </entry>
   
@@ -262,9 +283,9 @@
     
     
     
-    <category term="blog" scheme="https://mengdeerer.github.io/tags/blog/"/>
-    
     <category term="教程" scheme="https://mengdeerer.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="blog" scheme="https://mengdeerer.github.io/tags/blog/"/>
     
   </entry>
   
@@ -273,9 +294,9 @@
     <link href="https://mengdeerer.github.io/2024/01/19/test/"/>
     <id>https://mengdeerer.github.io/2024/01/19/test/</id>
     <published>2024-01-19T12:14:16.000Z</published>
-    <updated>2025-01-20T08:35:54.904Z</updated>
+    <updated>2025-01-20T08:38:34.304Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="达达达达哒"><a href="#达达达达哒" class="headerlink" title="达达达达哒"></a>达达达达哒</h1><h1 id="达达达达哒-1"><a href="#达达达达哒-1" class="headerlink" title="达达达达哒"></a>达达达达哒</h1><h1 id="达达达达哒-2"><a href="#达达达达哒-2" class="headerlink" title="达达达达哒"></a>达达达达哒</h1><span id="more"></span><p><img src="/2024/01/19/test/me.png" alt="me.png|225"><br>hihihi</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /home/www/hexo</span><br></pre></td></tr></table></figure><script type="math/tex; mode=display">\alpha+\beta</script><ul><li>[ ] 你好<blockquote><p>hihihi</p></blockquote></li><li>hi</li><li>hi</li><li>hello<script type="math/tex; mode=display">\begin{equation}\label{eq1}e=mc^2\end{equation}</script><blockquote><p>图床测试<br><img src="https://raw.githubusercontent.com/mengdeerer/4pic/main/20250120163553110.png" alt="image.png"></p></blockquote></li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="达达达达哒"><a href="#达达达达哒" class="headerlink" title="达达达达哒"></a>达达达达哒</h1><h1 id="达达达达哒-1"><a href="#达达达达哒-1" class="headerlink" title="达达达达哒"></a>达达达达哒</h1><h1 id="达达达达哒-2"><a href="#达达达达哒-2" class="headerlink" title="达达达达哒"></a>达达达达哒</h1><span id="more"></span><p><img src="/2024/01/19/test/me.png" alt="me.png|225"><br>hihihi</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /home/www/hexo</span><br></pre></td></tr></table></figure><script type="math/tex; mode=display">\alpha+\beta</script><ul><li>[ ] 你好<blockquote><p>hihihi</p></blockquote></li><li>hi</li><li>hi</li><li>hello<script type="math/tex; mode=display">\begin{equation}\label{eq1}e=mc^2\end{equation}</script><blockquote><p>图床测试</p></blockquote></li></ul><p><img src="https://raw.githubusercontent.com/mengdeerer/4pic/main/20250120163553110.png" alt="image.png"></p>]]></content>
     
     
     <summary type="html">&lt;h1 id=&quot;达达达达哒&quot;&gt;&lt;a href=&quot;#达达达达哒&quot; class=&quot;headerlink&quot; title=&quot;达达达达哒&quot;&gt;&lt;/a&gt;达达达达哒&lt;/h1&gt;&lt;h1 id=&quot;达达达达哒-1&quot;&gt;&lt;a href=&quot;#达达达达哒-1&quot; class=&quot;headerlink&quot; title=&quot;达达达达哒&quot;&gt;&lt;/a&gt;达达达达哒&lt;/h1&gt;&lt;h1 id=&quot;达达达达哒-2&quot;&gt;&lt;a href=&quot;#达达达达哒-2&quot; class=&quot;headerlink&quot; title=&quot;达达达达哒&quot;&gt;&lt;/a&gt;达达达达哒&lt;/h1&gt;</summary>
