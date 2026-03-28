@@ -32,9 +32,9 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# timezone: Asia/Shanghai
+timezone: Asia/Shanghai
 
 collections:
   - publications
   - news
-  - showcases
+  - showcase
