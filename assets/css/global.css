@@ -151,56 +151,12 @@ div.lazy {
     text-shadow: 2px 0 rgba(152, 255, 0, 0.4);
 }
 
-.name-cv-overlay {
-    position: absolute;
-    inset: 0;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.35rem;
-    padding: 0 0.45rem;
-    color: #b7ff2a;
-    background: transparent;
-    border: 1px solid rgba(183, 255, 42, 0.18);
-    border-radius: 0.35rem;
-    opacity: 0;
-    transform: scale(0.92);
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    font-family: "Source Code Pro", monospace;
-    font-size: 0.62em;
-    white-space: nowrap;
-    box-shadow:
-        0 0 12px rgba(183, 255, 42, 0.12),
-        inset 0 0 10px rgba(183, 255, 42, 0.04);
-    backdrop-filter: blur(1px);
-    transition:
-        opacity 0.18s ease,
-        transform 0.18s ease,
-        box-shadow 0.18s ease,
-        filter 0.18s ease,
-        border-color 0.18s ease;
-}
-
 .name-cv-link:hover .name-cv-text,
 .name-cv-link:focus .name-cv-text,
 .name-cv-link:focus-within .name-cv-text {
-    opacity: 0.12;
+    opacity: 0;
     transform: scale(1.04);
-}
-
-.name-cv-link:hover .name-cv-overlay,
-.name-cv-link:focus .name-cv-overlay,
-.name-cv-link:focus-within .name-cv-overlay {
-    opacity: 1;
-    transform: scale(1);
-    box-shadow:
-        0 0 16px rgba(183, 255, 42, 0.22),
-        0 0 28px rgba(183, 255, 42, 0.14),
-        inset 0 0 12px rgba(183, 255, 42, 0.06);
-    border-color: rgba(183, 255, 42, 0.38);
-    filter: brightness(1.06);
-    animation: name-cv-overlay-flicker 0.38s steps(1, end) 1;
+    filter: brightness(1.08);
 }
 
 .name-cv-link:hover::before,
@@ -226,35 +182,6 @@ div.lazy {
 
 .name-cv-link:focus {
     outline: none;
-}
-
-@keyframes name-cv-overlay-flicker {
-    0% {
-        opacity: 0;
-        transform: scale(0.92);
-        filter: brightness(1.35);
-    }
-    20% {
-        opacity: 1;
-        transform: scale(1.02);
-    }
-    32% {
-        opacity: 0.18;
-    }
-    46% {
-        opacity: 0.95;
-    }
-    58% {
-        opacity: 0.36;
-    }
-    74% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 1;
-        transform: scale(1);
-        filter: brightness(1.06);
-    }
 }
 
 @keyframes name-cv-glitch-left {

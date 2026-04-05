@@ -25,7 +25,6 @@
                         {% if site.data.profile.cv_link %}
                         <a class="name-cv-link" target="_blank" href="{{ site.data.profile.cv_link | relative_url }}" aria-label="{{ site.data.profile.primary_name }}">
                             <span class="name-cv-text">{{ site.data.profile.primary_name }}</span>
-                            <span class="name-cv-overlay"><i class="fas fa-file-alt"></i> CV</span>
                         </a>
                         {% else %}
                         {{ site.data.profile.primary_name }}
