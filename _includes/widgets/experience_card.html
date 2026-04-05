@@ -1,68 +1,70 @@
-{% assign has_education = site.data.profile.education and site.data.profile.education.size > 0 %}
-{% assign has_experience = site.data.profile.experience and site.data.profile.experience.size > 0 %}
-{% assign has_awards = site.data.profile.awards and site.data.profile.awards.size > 0 %}
+{% assign show_education = include.show_education %}
+{% assign show_experience = include.show_experience %}
+{% assign show_awards = include.show_awards %}
+
+{% if show_education == nil %}{% assign show_education = true %}{% endif %}
+{% if show_experience == nil %}{% assign show_experience = true %}{% endif %}
+{% if show_awards == nil %}{% assign show_awards = true %}{% endif %}
+
+{% assign has_education = show_education and site.data.profile.education and site.data.profile.education.size > 0 %}
+{% assign has_experience = show_experience and site.data.profile.experience and site.data.profile.experience.size > 0 %}
+{% assign has_awards = show_awards and site.data.profile.awards and site.data.profile.awards.size > 0 %}
 
 {% if has_education %}
-<div class="row mt-3">
-    <div class="col">
-        <div class="card border-0 shadow-sm bg-white">
-            <div class="px-3 py-3 small">
-                <h6 class="mb-3">Education</h6>
-                {% for item in site.data.profile.education %}
-                <div class="d-flex align-items-start {% unless forloop.last %}mb-3{% endunless %}">
-                    {% if item.logo %}
-                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 20px;" class="mr-2 mt-1">
-                    {% endif %}
-                    <div class="flex-grow-1">
-                        <div class="font-weight-bold">{{ item.name }}</div>
-                        <div>{{ item.position }}</div>
-                    </div>
-                    <div class="ml-3 text-muted no-break"><em>{{ item.date }}</em></div>
+<div class="homepage-block">
+    <div class="bg-white shadow-sm rounded-xl">
+        <h6 class="p-3 mb-0 border-bottom border-gray"><i class="fas fa-graduation-cap"></i> Education</h6>
+        <div class="px-3 py-3 small">
+            {% for item in site.data.profile.education %}
+            <div class="d-flex align-items-start {% unless forloop.last %}mb-3{% endunless %}">
+                {% if item.logo %}
+                <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 20px;" class="mr-2 mt-1">
+                {% endif %}
+                <div class="flex-grow-1">
+                    <div class="font-weight-bold">{{ item.name }}</div>
+                    <div>{{ item.position }}</div>
                 </div>
-                {% endfor %}
+                <div class="ml-3 text-muted no-break"><em>{{ item.date }}</em></div>
             </div>
+            {% endfor %}
         </div>
     </div>
 </div>
 {% endif %}
 
 {% if has_experience %}
-<div class="row mt-3">
-    <div class="col">
-        <div class="card border-0 shadow-sm bg-white">
-            <div class="px-3 py-3 small">
-                <h6 class="mb-3">Experience</h6>
-                {% for item in site.data.profile.experience %}
-                <div class="d-flex align-items-start {% unless forloop.last %}mb-3{% endunless %}">
-                    {% if item.logo %}
-                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 20px;" class="mr-2 mt-1">
-                    {% endif %}
-                    <div class="flex-grow-1">
-                        <div class="font-weight-bold">{{ item.name }}</div>
-                        <div>{{ item.position }}</div>
-                    </div>
-                    <div class="ml-3 text-muted no-break"><em>{{ item.date }}</em></div>
+<div class="homepage-block">
+    <div class="bg-white shadow-sm rounded-xl">
+        <h6 class="p-3 mb-0 border-bottom border-gray"><i class="fas fa-briefcase"></i> Experience</h6>
+        <div class="px-3 py-3 small">
+            {% for item in site.data.profile.experience %}
+            <div class="d-flex align-items-start {% unless forloop.last %}mb-3{% endunless %}">
+                {% if item.logo %}
+                <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 20px;" class="mr-2 mt-1">
+                {% endif %}
+                <div class="flex-grow-1">
+                    <div class="font-weight-bold">{{ item.name }}</div>
+                    <div>{{ item.position }}</div>
                 </div>
-                {% endfor %}
+                <div class="ml-3 text-muted no-break"><em>{{ item.date }}</em></div>
             </div>
+            {% endfor %}
         </div>
     </div>
 </div>
 {% endif %}
 
 {% if has_awards %}
-<div class="row mt-3">
-    <div class="col">
-        <div class="card border-0 shadow-sm bg-white">
-            <div class="px-3 py-3 small">
-                <h6 class="mb-3">Honors & Awards</h6>
-                {% for item in site.data.profile.awards %}
-                <div class="d-flex align-items-start {% unless forloop.last %}mb-3{% endunless %}">
-                    <div class="flex-grow-1 font-weight-bold">{{ item.name }}</div>
-                    <div class="ml-3 text-muted no-break"><em>{{ item.date }}</em></div>
-                </div>
-                {% endfor %}
+<div class="homepage-block">
+    <div class="bg-white shadow-sm rounded-xl">
+        <h6 class="p-3 mb-0 border-bottom border-gray"><i class="fas fa-award"></i> Honors & Awards</h6>
+        <div class="px-3 py-3 small">
+            {% for item in site.data.profile.awards %}
+            <div class="d-flex align-items-start {% unless forloop.last %}mb-3{% endunless %}">
+                <div class="flex-grow-1 font-weight-bold">{{ item.name }}</div>
+                <div class="ml-3 text-muted no-break"><em>{{ item.date }}</em></div>
             </div>
+            {% endfor %}
         </div>
     </div>
 </div>

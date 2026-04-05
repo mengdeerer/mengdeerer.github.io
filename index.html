@@ -16,10 +16,6 @@ navbar_title: Home
         {% include widgets/debug_repo_name.html %}
         {% include widgets/debug_url.html %}
 
-        {% if site.data.display.homepage.show_experience %}
-            {% include widgets/experience_card.html %}
-        {% endif %}
-
         {% if site.data.display.homepage.show_news %}
         {% assign visible_news = site.news | where_exp: "item", "item.show != false" %}
         {% assign count_news = visible_news | size %}
@@ -35,6 +31,10 @@ navbar_title: Home
         publications=pubs
         title='<i class="fas fa-star"></i> Selected Publications'
         %}
+        {% endif %}
+
+        {% if site.data.display.homepage.show_experience %}
+            {% include widgets/experience_card.html show_education=true show_experience=true show_awards=true %}
         {% endif %}
     </div>
 </div>

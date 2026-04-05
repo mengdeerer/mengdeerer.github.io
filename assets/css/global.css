@@ -90,6 +90,14 @@ div.lazy {
     font-family: Source Code Pro, monospace;
 }
 
+.homepage-block + .homepage-block {
+    margin-top: 0.625rem;
+}
+
+.about-me-section {
+    margin-bottom: 0.625rem;
+}
+
 .name-cv-link {
     position: relative;
     display: inline-flex;
