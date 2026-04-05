@@ -19,7 +19,14 @@
 
                         <div class="d-flex">
                             <div class="h1 font-weight-normal">
+                                {% if site.data.profile.cv_link %}
+                                <a class="name-cv-link" target="_blank" href="{{ site.data.profile.cv_link | relative_url }}" aria-label="{{ site.data.profile.primary_name }}">
+                                    <span class="name-cv-text">{{ site.data.profile.primary_name }}{% if site.data.profile.secondary_name %} <small>{{ site.data.profile.secondary_name }}</small>{% endif %}</span>
+                                    <span class="name-cv-overlay"><i class="fas fa-file-alt"></i> CV</span>
+                                </a>
+                                {% else %}
                                 {{ site.data.profile.primary_name }} <small>{{ site.data.profile.secondary_name }}</small>
+                                {% endif %}
                             </div>
                             {% if site.data.profile.portrait_url %}
                             <div class="ml-auto d-md-none">
@@ -40,9 +47,6 @@
                         <div class="text-profile-bio mt-3" {% if site.data.profile.short_bio_text_justify %}style="text-align: justify;"{% endif %}>
                             {{ site.data.profile.short_bio }}
                         </div>
-                        {% if site.data.profile.cv_link %}
-                            <a target="_blank" href="{{ site.data.profile.cv_link | relative_url }}"><i class="fas fa-file-alt"></i> Curriculum Vitae</a> <br/>
-                        {% endif %}
                     </div>
         
                 </div>
