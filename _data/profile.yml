@@ -10,7 +10,6 @@ positions:
 
 email: "mengdeerer@gmail.com"
 portrait_url: /assets/images/photos/me.JPG
-cv_link: /cv
 github: mengdeerer
 gscholar: https://scholar.google.com/citations?hl=zh-CN&user=glaQrZUAAAAJ
 # twitter: your_twitter_id  # Do not include the '@' symbol
@@ -27,7 +26,7 @@ short_bio: >-
     I am advised by <a href="https://guolusjtu.github.io/guoluhomepage/" target="_blank" rel="noopener noreferrer">Prof. Guo Lu</a>.
   </p>
   <p>
-    My research interests mainly focus on <strong>Video-LLMs</strong> and <strong>token compression</strong>, with an emphasis on improving efficiency while preserving strong multimodal understanding performance.
+    My research interests mainly focus on <strong>multimodal LLMs</strong>, especially <strong>Video-LLMs</strong>, <strong>full-duplex Audio-LLMs</strong>, and <strong>token compression</strong>, with an emphasis on improving efficiency while preserving strong multimodal understanding performance.
   </p>
 
 education:
@@ -38,7 +37,14 @@ education:
   date: Sep. 2022 - Present
 
 experience:
+- name: StepFun
+  logo: /assets/images/badges/stepfun.svg
+  logo_width: 20
+  position: Research Intern, Audio-LMM Post-training
+  date: Jun. 1, 2026 - Present
 - name: NUS Summer SOC Program
+  logo: /assets/images/badges/nus.svg
+  logo_width: 15
   position: Robotics and Deep Learning Project
   date: Jul. 2024 - Aug. 2024
 
