@@ -26,7 +26,11 @@ short_bio: >-
     I am advised by <a href="https://guolusjtu.github.io/guoluhomepage/" target="_blank" rel="noopener noreferrer">Prof. Guo Lu</a>.
   </p>
   <p>
-    My research interests mainly focus on <strong>multimodal LLMs</strong>, especially <strong>Video-LLMs</strong>, <strong>full-duplex Audio-LLMs</strong>, and <strong>token compression</strong>, with an emphasis on improving efficiency while preserving strong multimodal understanding performance.
+    My research interests mainly focus on <strong>multimodal LLMs</strong>, especially <strong>Video-LLMs</strong>, <strong>full-duplex Audio-LLMs</strong>, <strong>voice agents</strong>, and <strong>token compression</strong>, with an emphasis on efficient multimodal understanding and natural, real-time interaction.
+  </p>
+  <p>
+    I am a research intern at <strong>StepFun</strong>, working on Audio-LMM post-training.
+    I contributed to <a href="https://arxiv.org/abs/2609.14005" target="_blank" rel="noopener noreferrer">StepAudio 3 Realtime</a>, primarily focusing on <strong>full-duplex interaction</strong> and <strong>Voice Agent</strong> capabilities.
   </p>
 
 education:
