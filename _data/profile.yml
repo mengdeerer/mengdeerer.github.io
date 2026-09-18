@@ -4,7 +4,7 @@ navbar_name: "Jialong Xue"
 
 positions:
 - name: >-
-    Undergraduate Student<br>
+    First-year Master's Student<br>
     Shanghai Jiao Tong University
 
 
@@ -22,23 +22,31 @@ gscholar: https://scholar.google.com/citations?hl=zh-CN&user=glaQrZUAAAAJ
 short_bio_text_justify: true
 short_bio: >-
   <p>
-    I am currently an undergraduate student in Information Engineering at Shanghai Jiao Tong University, where I will continue my graduate study as a master's student.
-    I am advised by <a href="https://guolusjtu.github.io/guoluhomepage/" target="_blank" rel="noopener noreferrer">Prof. Guo Lu</a>.
+    I am a first-year master's student at Shanghai Jiao Tong University, advised by <a href="https://guolusjtu.github.io/guoluhomepage/" target="_blank" rel="noopener noreferrer">Prof. Guo Lu</a>.
+    I received my bachelor's degree in Information Engineering from the same university.
   </p>
   <p>
-    My research interests mainly focus on <strong>multimodal LLMs</strong>, especially <strong>Video-LLMs</strong>, <strong>full-duplex Audio-LLMs</strong>, <strong>voice agents</strong>, and <strong>token compression</strong>, with an emphasis on efficient multimodal understanding and natural, real-time interaction.
+    My research focuses on <strong>omni-modal models</strong>, with an emphasis on integrating vision, audio, and language for natural, real-time interaction.
+    I am particularly interested in how these models can perceive, reason, and act throughout an ongoing conversation.
+    My previous work explored efficient video understanding through spatiotemporal token compression.
   </p>
   <p>
-    I am a research intern at <strong>StepFun</strong>, working on Audio-LMM post-training.
-    I contributed to <a href="https://arxiv.org/abs/2609.14005" target="_blank" rel="noopener noreferrer">StepAudio 3 Realtime</a>, primarily focusing on <strong>full-duplex interaction</strong> and <strong>Voice Agent</strong> capabilities.
+    I am also a research intern at <strong>StepFun</strong>, working on audio-language model post-training.
+    I contributed to <a href="https://arxiv.org/abs/2609.14005" target="_blank" rel="noopener noreferrer">StepAudio 3 Realtime</a>, primarily in <strong>full-duplex dialogue</strong> and <strong>voice agent capabilities</strong>.
+    This work aligns with my broader interest in building multimodal assistants that interact naturally and carry out tasks through conversation.
   </p>
 
 education:
 - name: Shanghai Jiao Tong University
   logo: /assets/images/badges/sjtu.png
   position: >-
+    Master's Student
+  date: 2026 - Present
+- name: Shanghai Jiao Tong University
+  logo: /assets/images/badges/sjtu.png
+  position: >-
     B.Eng. in Information Engineering
-  date: Sep. 2022 - Present
+  date: 2022 - 2026
 
 experience:
 - name: StepFun
